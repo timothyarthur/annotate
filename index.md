@@ -1,7 +1,7 @@
 ---
 layout: page
 title: '1. Select a Manifest'
-manifests: [ heresies_16, copperfield, bnf640, haemisphaerium ]
+manifests: [ heresies_16 ]
 loaded_manifest: heresies_16
 ---
 <script src="https://use.fontawesome.com/884e80fbb8.js"></script>

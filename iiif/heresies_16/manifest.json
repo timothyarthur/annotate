@@ -1,3 +1,6 @@
+---
+layout: null
+---
 {
   "@context": "http://iiif.io/api/image/2/context.json",
   "@id": "https://iiif.archivelab.org/iiif/heresies_16/manifest.json",
@@ -53,7 +56,13 @@
             }
           ],
           "label": "",
-          "width": 2544
+          "width": 2544,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_16/1/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_16$2/canvas",
