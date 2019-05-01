@@ -8,8 +8,9 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-<script type="text/jscript">
-  var canvas_regex = /.+canvas\/([^.]+)/;
+<script type="text/javascript">
+  // match Internet Archive canvas uris like https://iiif.archivelab.org/iiif/heresies_16$7/canvas
+  var canvas_regex = /.+\$([0-9]+)\/canvas.*/;
 
   function download(filename, text) {
     var element = document.createElement('a');
