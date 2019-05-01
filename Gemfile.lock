@@ -8,6 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    byebug (11.0.1)
     colorator (1.1.0)
     colorize (0.8.1)
     concurrent-ruby (1.1.4)
@@ -87,10 +88,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   html-proofer
   jekyll (~> 3.8)
   jekyll-swiss
   rake
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
