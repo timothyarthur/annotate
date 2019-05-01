@@ -1,5 +1,6 @@
 require 'fileutils'
 require 'json'
+require 'byebug'
 
 task :default => [:store_annotations]
 
@@ -8,6 +9,7 @@ task :store_annotations do
   Dir['annotations/*/'].each { | m | manifests << File.basename(m, ".*") }
 
   manifests.each do | manifest |
+    puts 'Manifest: ' + manifest
     unstored_canvases = Dir["annotations/" + manifest + "/*.json"].sort!
     unstored_canvases.each do |canvas|
       name = File.basename(canvas, ".*")
@@ -22,9 +24,9 @@ task :store_annotations do
       File.delete(canvas) # remove unstored data file
     end
 
-    unless unstored_canvases.empty?
+    #unless unstored_canvases.empty?
       update_manifest_copy(manifest)
-    end
+    #end
   end
 end
 
@@ -59,15 +61,16 @@ def update_manifest_copy(manifest)
   puts "adding annotation references for canvases " + stored_canvases.to_s + " to manifest copy."
 
   manifest_json = JSON.parse(File.read("iiif/" + manifest + "/clean-manifest.json").gsub(/\A---(.|\n)*?---/, "").to_s)
-  canvases = manifest_json["sequences"][0]["canvases"].select {|c| stored_canvases.include? c["@id"].split('/')[-1] }
-
+  canvases = manifest_json["sequences"][0]["canvases"].select {|c| 
+    stored_canvases.include? c["@id"].gsub(/.+\$([0-9]+)\/canvas.*/, '\1') 
+  }
   canvases.each do | canvas |
     annotation_hash = Hash.new { |hash, key| hash[key] = {} }
-    this_id = canvas["@id"].split('/')[-1]
+    this_id = canvas["@id"].gsub(/.+\$([0-9]+)\/canvas.*/, '\1')
     annotation_hash["@id"] = "{{ site.url }}{{ site.baseurl }}/annotations/" + manifest + "/" + this_id + "/list.json"
     annotation_hash["@type"] = "sc:AnnotationList"
     canvas["otherContent"] = Array.new << annotation_hash
   end
 
-  File.open("iiif/" + manifest + "/manifest.json", 'w+') { |f| f.write("---\nlayout: null\n---\n"+manifest_json.to_json) }
+  File.open("iiif/" + manifest + "/manifest.json", 'w+') { |f| f.write("---\nlayout: null\n---\n"+JSON.pretty_generate(manifest_json)) }
 end
