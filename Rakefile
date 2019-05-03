@@ -72,5 +72,9 @@ def update_manifest_copy(manifest)
     canvas["otherContent"] = Array.new << annotation_hash
   end
 
+  # embed jekyll url and baseurl in manifest id, so that it will match the uri passed to Mirador
+  # this is necessary to make the preserveManifestOrder config option take effect
+  manifest_json['@id'].gsub!('https://iiif.archivelab.org', '{{ site.url }}{{ site.baseurl }}')
+
   File.open("iiif/" + manifest + "/manifest.json", 'w+') { |f| f.write("---\nlayout: null\n---\n"+JSON.pretty_generate(manifest_json)) }
 end

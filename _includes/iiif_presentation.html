@@ -19,7 +19,11 @@
            canvasID: '{{ page.canvas_id }}',
            bottomPanelVisible: {{ page.bottom_panel | default: 'true' }}
        }],
-       annotationEndpoint: { 'name':'Local Storage', 'module': 'LocalStorageEndpoint' }
+       annotationEndpoint: { 'name':'Local Storage', 'module': 'LocalStorageEndpoint' },
+       preserveManifestOrder: true,
+       annotationLayer: true,
+       annotationCreation: true,
+       annotationState: 'annoOnCreateOn'
      });
    });
 </script>">
