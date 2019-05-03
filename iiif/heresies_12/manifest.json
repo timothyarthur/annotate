@@ -3,52 +3,52 @@ layout: null
 ---
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "{{ site.url }}{{ site.baseurl }}/iiif/heresies_16/manifest.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/iiif/heresies_12/manifest.json",
   "@type": "sc:Manifest",
   "attribution": "The Internet Archive",
-  "label": "Heresies Magazine Issue #16: Film / Video / Media (Volume 4, Number 4)",
+  "label": "Heresies Magazine Issue #12: Sex Issue (Volume 3, Number 4)",
   "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
   "metadata": [
     {
       "label": "title",
-      "value": "Heresies Magazine Issue #16: Film / Video / Media (Volume 4, Number 4)"
+      "value": "Heresies Magazine Issue #12: Sex Issue (Volume 3, Number 4)"
     },
     {
       "label": "subject",
-      "value": "film. women. films. narrative. filmmakers. feminist. stella. black. images. black women. women filmmakers. feminist film. motion picture. rock video. video art. making films. lis rhodes. diana agosta. calvin klein"
+      "value": "sexual. women. sexuality. lesbian. feminist. gay. woman. sex. male. gay men. black women. women artists. female sexuality. black woman. making love. lesbian herstory. gay male. sexual imagery. sexual behavior"
     },
     {
       "label": "date",
-      "value": "1983"
+      "value": "1981"
     }
   ],
-  "related": "http://archive.org/details/heresies_16",
-  "seeAlso": "http://archive.org/metadata/heresies_16",
+  "related": "http://archive.org/details/heresies_12",
+  "seeAlso": "http://archive.org/metadata/heresies_12",
   "sequences": [
     {
       "@context": "http://iiif.io/api/image/2/context.json",
-      "@id": "https://iiif.archivelab.org/iiif/heresies_16/canvas/default",
+      "@id": "https://iiif.archivelab.org/iiif/heresies_12/canvas/default",
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$1/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$1/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$1/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$1/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$1/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$1/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$1/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$1/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$1",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$1",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -56,33 +56,83 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2544,
-          "otherContent": [
+          "width": 2544
+        },
+        {
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$2/canvas",
+          "@type": "sc:Canvas",
+          "height": 3288,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$2/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$2/annotation",
+              "resource": {
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3288,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$2",
+                  "profile": "https://iiif.io/api/image/2/profiles/level2.json"
+                },
+                "width": 2544
+              }
+            }
+          ],
+          "label": "",
+          "width": 2544
+        },
+        {
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$3/canvas",
+          "@type": "sc:Canvas",
+          "height": 3288,
+          "images": [
             {
-              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_16/1/list.json",
-              "@type": "sc:AnnotationList"
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$3/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$3/annotation",
+              "resource": {
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$3/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3288,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$3",
+                  "profile": "https://iiif.io/api/image/2/profiles/level2.json"
+                },
+                "width": 2544
+              }
             }
-          ]
+          ],
+          "label": "",
+          "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$2/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$4/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$2/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$4/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$2/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$4/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$2/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$4/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$2",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$4",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -93,24 +143,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$3/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$5/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$3/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$5/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$3/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$5/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$3/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$5/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$3",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$5",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -121,24 +171,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$4/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$6/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$4/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$6/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$4/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$6/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$4/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$6/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$4",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$6",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -149,24 +199,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$5/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$7/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$5/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$7/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$5/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$7/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$5/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$7/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$5",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$7",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -177,24 +227,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$6/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$8/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$6/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$8/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$6/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$8/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$6/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$8/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$6",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$8",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -205,24 +255,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$7/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$9/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$7/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$9/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$7/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$9/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$7/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$9/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$7",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$9",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -233,24 +283,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$8/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$10/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$8/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$10/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$8/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$10/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$8/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$10/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$8",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$10",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -261,24 +311,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$9/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$11/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$9/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$11/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$9/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$11/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$9/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$11/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$9",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$11",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -289,24 +339,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$10/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$12/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$10/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$12/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$10/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$12/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$10/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$12/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$10",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$12",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -317,24 +367,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$11/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$13/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$11/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$13/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$11/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$13/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$11/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$13/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$11",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$13",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -345,24 +395,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$12/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$14/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$12/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$14/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$12/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$14/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$12/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$14/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$12",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$14",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -373,24 +423,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$13/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$15/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$13/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$15/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$13/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$15/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$13/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$15/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$13",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$15",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -401,24 +451,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$14/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$16/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$14/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$16/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$14/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$16/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$14/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$16/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$14",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$16",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -429,24 +479,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$15/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$17/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$15/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$17/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$15/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$17/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$15/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$17/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$15",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$17",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -457,24 +507,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$16/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$18/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$16/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$18/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$16/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$18/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$16/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$18/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$16",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$18",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -485,24 +535,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$17/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$19/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$17/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$19/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$17/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$19/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$17/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$19/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$17",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$19",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -513,24 +563,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$18/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$20/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$18/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$20/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$18/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$20/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$18/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$20/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$18",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$20",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -541,24 +591,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$19/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$21/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$19/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$21/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$19/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$21/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$19/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$21/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$19",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$21",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -569,24 +619,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$20/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$22/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$20/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$22/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$20/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$22/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$20/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$22/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$20",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$22",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -597,24 +647,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$21/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$23/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$21/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$23/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$21/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$23/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$21/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$23/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$21",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$23",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -625,24 +675,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$22/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$24/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$22/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$24/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$22/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$24/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$22/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$24/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$22",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$24",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -653,24 +703,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$23/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$25/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$23/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$25/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$23/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$25/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$23/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$25/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$23",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$25",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -681,24 +731,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$24/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$26/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$24/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$26/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$24/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$26/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$24/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$26/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$24",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$26",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -709,24 +759,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$25/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$27/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$25/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$27/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$25/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$27/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$25/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$27/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$25",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$27",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -737,24 +787,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$26/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$28/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$26/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$28/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$26/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$28/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$26/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$28/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$26",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$28",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -765,24 +815,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$27/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$29/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$27/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$29/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$27/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$29/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$27/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$29/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$27",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$29",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -793,24 +843,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$28/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$30/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$28/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$30/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$28/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$30/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$28/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$30/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$28",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$30",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -821,24 +871,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$29/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$31/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$29/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$31/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$29/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$31/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$29/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$31/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$29",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$31",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -849,24 +899,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$30/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$32/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$30/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$32/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$30/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$32/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$30/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$32/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$30",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$32",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -877,24 +927,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$31/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$33/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$31/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$33/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$31/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$33/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$31/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$33/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$31",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$33",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -905,24 +955,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$32/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$34/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$32/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$34/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$32/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$34/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$32/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$34/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$32",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$34",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -933,24 +983,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$33/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$35/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$33/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$35/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$33/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$35/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$33/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$35/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$33",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$35",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -961,24 +1011,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$34/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$36/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$34/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$36/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$34/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$36/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$34/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$36/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$34",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$36",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -989,24 +1039,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$35/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$37/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$35/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$37/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$35/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$37/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$35/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$37/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$35",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$37",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1017,24 +1067,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$36/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$38/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$36/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$38/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$36/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$38/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$36/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$38/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$36",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$38",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1045,24 +1095,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$37/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$39/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$37/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$39/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$37/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$39/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$37/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$39/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$37",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$39",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1073,24 +1123,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$38/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$40/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$38/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$40/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$38/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$40/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$38/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$40/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$38",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$40",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1101,24 +1151,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$39/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$41/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$39/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$41/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$39/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$41/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$39/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$41/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$39",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$41",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1129,24 +1179,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$40/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$42/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$40/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$42/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$40/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$42/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$40/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$42/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$40",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$42",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1157,24 +1207,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$41/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$43/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$41/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$43/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$41/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$43/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$41/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$43/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$41",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$43",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1185,24 +1235,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$42/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$44/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$42/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$44/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$42/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$44/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$42/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$44/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$42",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$44",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1213,24 +1263,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$43/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$45/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$43/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$45/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$43/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$45/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$43/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$45/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$43",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$45",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1241,24 +1291,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$44/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$46/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$44/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$46/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$44/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$46/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$44/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$46/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$44",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$46",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1269,24 +1319,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$45/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$47/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$45/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$47/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$45/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$47/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$45/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$47/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$45",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$47",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1297,24 +1347,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$46/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$48/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$46/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$48/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$46/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$48/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$46/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$48/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$46",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$48",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1325,24 +1375,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$47/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$49/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$47/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$49/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$47/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$49/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$47/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$49/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$47",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$49",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1353,24 +1403,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$48/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$50/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$48/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$50/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$48/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$50/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$48/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$50/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$48",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$50",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1381,24 +1431,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$49/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$51/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$49/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$51/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$49/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$51/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$49/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$51/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$49",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$51",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1409,24 +1459,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$50/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$52/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$50/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$52/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$50/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$52/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$50/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$52/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$50",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$52",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1437,24 +1487,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$51/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$53/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$51/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$53/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$51/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$53/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$51/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$53/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$51",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$53",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1465,24 +1515,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$52/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$54/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$52/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$54/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$52/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$54/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$52/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$54/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$52",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$54",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1493,24 +1543,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$53/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$55/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$53/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$55/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$53/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$55/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$53/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$55/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$53",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$55",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1521,24 +1571,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$54/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$56/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$54/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$56/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$54/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$56/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$54/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$56/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$54",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$56",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1549,24 +1599,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$55/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$57/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$55/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$57/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$55/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$57/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$55/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$57/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$55",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$57",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1577,24 +1627,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$56/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$58/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$56/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$58/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$56/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$58/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$56/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$58/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$56",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$58",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1605,24 +1655,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$57/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$59/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$57/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$59/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$57/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$59/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$57/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$59/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$57",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$59",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1633,24 +1683,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$58/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$60/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$58/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$60/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$58/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$60/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$58/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$60/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$58",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$60",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1661,24 +1711,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$59/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$61/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$59/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$61/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$59/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$61/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$59/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$61/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$59",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$61",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1689,24 +1739,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$60/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$62/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$60/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$62/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$60/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$62/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$60/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$62/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$60",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$62",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1717,24 +1767,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$61/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$63/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$61/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$63/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$61/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$63/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$61/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$63/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$61",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$63",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1745,24 +1795,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$62/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$64/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$62/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$64/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$62/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$64/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$62/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$64/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$62",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$64",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1773,24 +1823,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$63/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$65/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$63/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$65/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$63/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$65/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$63/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$65/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$63",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$65",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1801,24 +1851,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$64/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$66/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$64/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$66/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$64/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$66/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$64/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$66/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$64",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$66",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1829,24 +1879,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$65/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$67/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$65/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$67/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$65/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$67/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$65/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$67/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$65",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$67",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1857,24 +1907,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$66/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$68/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$66/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$68/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$66/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$68/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$66/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$68/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$66",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$68",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1885,24 +1935,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$67/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$69/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$67/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$69/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$67/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$69/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$67/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$69/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$67",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$69",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1913,24 +1963,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$68/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$70/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$68/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$70/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$68/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$70/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$68/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$70/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$68",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$70",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1941,24 +1991,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$69/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$71/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$69/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$71/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$69/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$71/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$69/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$71/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$69",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$71",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1969,24 +2019,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$70/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$72/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$70/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$72/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$70/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$72/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$70/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$72/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$70",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$72",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -1997,24 +2047,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$71/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$73/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$71/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$73/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$71/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$73/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$71/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$73/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$71",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$73",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2025,24 +2075,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$72/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$74/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$72/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$74/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$72/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$74/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$72/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$74/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$72",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$74",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2053,24 +2103,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$73/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$75/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$73/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$75/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$73/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$75/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$73/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$75/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$73",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$75",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2081,24 +2131,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$74/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$76/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$74/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$76/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$74/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$76/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$74/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$76/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$74",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$76",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2109,24 +2159,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$75/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$77/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$75/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$77/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$75/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$77/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$75/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$77/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$75",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$77",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2137,24 +2187,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$76/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$78/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$76/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$78/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$76/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$78/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$76/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$78/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$76",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$78",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2165,24 +2215,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$77/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$79/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$77/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$79/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$77/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$79/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$77/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$79/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$77",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$79",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2193,24 +2243,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$78/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$80/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$78/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$80/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$78/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$80/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$78/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$80/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$78",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$80",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2221,24 +2271,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$79/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$81/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$79/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$81/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$79/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$81/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$79/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$81/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$79",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$81",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2249,24 +2299,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$80/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$82/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$80/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$82/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$80/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$82/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$80/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$82/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$80",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$82",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2277,24 +2327,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$81/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$83/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$81/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$83/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$81/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$83/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$81/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$83/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$81",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$83",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2305,24 +2355,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$82/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$84/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$82/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$84/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$82/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$84/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$82/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$84/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$82",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$84",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2333,24 +2383,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$83/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$85/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$83/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$85/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$83/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$85/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$83/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$85/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$83",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$85",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2361,24 +2411,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$84/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$86/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$84/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$86/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$84/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$86/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$84/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$86/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$84",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$86",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2389,24 +2439,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$85/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$87/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$85/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$87/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$85/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$87/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$85/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$87/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$85",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$87",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2417,24 +2467,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$86/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$88/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$86/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$88/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$86/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$88/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$86/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$88/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$86",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$88",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2445,24 +2495,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$87/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$89/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$87/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$89/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$87/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$89/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$87/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$89/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$87",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$89",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2473,24 +2523,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$88/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$90/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$88/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$90/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$88/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$90/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$88/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$90/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$88",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$90",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2501,24 +2551,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$89/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$91/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$89/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$91/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$89/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$91/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$89/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$91/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$89",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$91",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2529,24 +2579,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$90/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$92/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$90/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$92/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$90/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$92/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$90/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$92/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$90",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$92",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2557,24 +2607,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$91/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$93/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$91/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$93/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$91/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$93/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$91/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$93/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$91",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$93",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2585,24 +2635,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$92/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$94/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$92/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$94/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$92/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$94/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$92/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$94/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$92",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$94",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2613,24 +2663,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$93/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$95/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$93/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$95/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$93/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$95/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$93/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$95/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$93",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$95",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2641,24 +2691,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$94/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$96/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$94/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$96/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$94/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$96/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$94/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$96/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$94",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$96",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2669,24 +2719,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$95/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$97/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$95/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$97/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$95/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$97/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$95/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$97/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$95",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$97",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2697,24 +2747,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$96/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$98/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$96/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$98/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$96/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$98/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$96/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$98/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$96",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$98",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2725,24 +2775,24 @@ layout: null
           "width": 2544
         },
         {
-          "@id": "https://iiif.archivelab.org/iiif/heresies_16$97/canvas",
+          "@id": "https://iiif.archivelab.org/iiif/heresies_12$99/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
           "images": [
             {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "https://iiif.archivelab.org/iiif/heresies_16$97/annotation",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_12$99/annotation",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://iiif.archivelab.org/iiif/heresies_16$97/annotation",
+              "on": "https://iiif.archivelab.org/iiif/heresies_12$99/annotation",
               "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/heresies_16$97/full/full/0/default.jpg",
+                "@id": "https://iiif.archivelab.org/iiif/heresies_12$99/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3288,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/heresies_16$97",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_12$99",
                   "profile": "https://iiif.io/api/image/2/profiles/level2.json"
                 },
                 "width": 2544
@@ -2757,7 +2807,7 @@ layout: null
     }
   ],
   "thumbnail": {
-    "@id": "https://ia801901.us.archive.org/BookReader/BookReaderPreview.php?id=heresies_16&subPrefix=heresies_16&itemPath=/23/items/heresies_16&server=ia801901.us.archive.org&page=preview&"
+    "@id": "https://ia801901.us.archive.org/BookReader/BookReaderPreview.php?id=heresies_12&subPrefix=heresies_12&itemPath=/24/items/heresies_12&server=ia801901.us.archive.org&page=preview&"
   },
   "viewingHint": "paged"
 }
