@@ -33,7 +33,7 @@ canvasesWithAnnos.each do |canvas|
   xywh = resource['on'][0]['selector']['default']['value'].gsub('xywh=', '')
 
   labelElements = []
-  csvElements = {id: resource['id'], item: manifest, canvas: canvasID}
+  csvElements = {id: resource['@id'], item: manifest, canvas: canvasID}
 
   canvasNum = canvasID.gsub(/.+\$([0-9]+)\/canvas.*/, '\1')
   labelElements << canvasNum
@@ -49,9 +49,9 @@ canvasesWithAnnos.each do |canvas|
   textElements = []
   texts.each do |text|
     labelElements << Sanitize.clean(text['chars']).strip
-    tagElements << Sanitize.clean(text['chars']).strip
+    textElements << Sanitize.clean(text['chars']).strip
   end
-  csvElements[:tags] = textElements.join('|')
+  csvElements[:texts] = textElements.join('|')
 
   labelElements << xywh
   csvElements[:xywh] = xywh
