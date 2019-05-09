@@ -28,6 +28,34 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
+          "@id": "https://iiif.archivelab.org/iiif/heresies_15$0/canvas",
+          "@type": "sc:Canvas",
+          "height": 5214,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_15$0/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.archivelab.org/iiif/heresies_15$0/annotation",
+              "resource": {
+                "@id": "https://iiif.archivelab.org/iiif/heresies_15$0/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5214,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_15$0",
+                  "profile": "https://iiif.io/api/image/2/profiles/level2.json"
+                },
+                "width": 4283
+              }
+            }
+          ],
+          "label": "",
+          "width": 4283
+        },
+        {
           "@id": "https://iiif.archivelab.org/iiif/heresies_15$1/canvas",
           "@type": "sc:Canvas",
           "height": 5214,

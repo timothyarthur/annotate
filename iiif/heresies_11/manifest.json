@@ -31,6 +31,34 @@ layout: null
       "@type": "sc:Sequence",
       "canvases": [
         {
+          "@id": "https://iiif.archivelab.org/iiif/heresies_11$0/canvas",
+          "@type": "sc:Canvas",
+          "height": 3288,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.archivelab.org/iiif/heresies_11$0/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.archivelab.org/iiif/heresies_11$0/annotation",
+              "resource": {
+                "@id": "https://iiif.archivelab.org/iiif/heresies_11$0/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3288,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archivelab.org/iiif/heresies_11$0",
+                  "profile": "https://iiif.io/api/image/2/profiles/level2.json"
+                },
+                "width": 2544
+              }
+            }
+          ],
+          "label": "",
+          "width": 2544
+        },
+        {
           "@id": "https://iiif.archivelab.org/iiif/heresies_11$1/canvas",
           "@type": "sc:Canvas",
           "height": 3288,
@@ -2751,7 +2779,7 @@ layout: null
     }
   ],
   "thumbnail": {
-    "@id": "https://ia601903.us.archive.org/BookReader/BookReaderPreview.php?id=heresies_11&subPrefix=heresies_11&itemPath=/8/items/heresies_11&server=ia601903.us.archive.org&page=preview&"
+    "@id": "https://ia801903.us.archive.org/BookReader/BookReaderPreview.php?id=heresies_11&subPrefix=heresies_11&itemPath=/8/items/heresies_11&server=ia801903.us.archive.org&page=preview&"
   },
   "viewingHint": "paged"
 }
