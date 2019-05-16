@@ -11,7 +11,7 @@ social_username: mariinyrop
 
 theme: jekyll-swiss
 
-exclude: [Rakefile, Gemfile*, vendor]
+exclude: [Rakefile, Gemfile*, vendor, CHECKS]
 include: [feed.xml]
 
 webrick:
