@@ -107,7 +107,7 @@ def make_clippings(manifest)
   canvasesWithAnnos.each do |canvas|
     canvasID = canvas['@id']
     listpath = canvas['otherContent'][0]['@id'].gsub('{{ site.url }}{{ site.baseurl }}/', '')
-    list_json = JSON.parse(File.read('_site/' + listpath).to_s)
+    list_json = JSON.parse(File.read('_site/' + listpath).to_s) #TODO remove dependence on generated _site
   
     resource = list_json['resources'][0]
     canvasOn = resource['on'][0]['full']
