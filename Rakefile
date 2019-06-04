@@ -11,7 +11,12 @@ task :default => [:store_annotations]
 
 task :store_annotations do
   manifests = []
-  Dir['annotations/*/'].each { | m | manifests << File.basename(m, ".*") }
+
+  # create annotations folder for every manifest in iiif folder
+  Dir['iiif/*/'].each { | m |
+    mkdir_p "annotations/#{File.basename(m, ".*")}"
+    manifests << File.basename(m, ".*")
+  }
 
   manifests.each do | manifest |
     puts 'Manifest: ' + manifest
@@ -29,7 +34,9 @@ task :store_annotations do
       File.delete(canvas) # remove unstored data file
     end
 
-    unless unstored_canvases.empty?
+    # TODO also update if manifest is older than clean-manifest
+    if !unstored_canvases.empty? || (!File.exist? "iiif/#{manifest}/manifest.json")
+      puts "Updating #{manifest}"
       update_manifest_copy(manifest)
     end
 
