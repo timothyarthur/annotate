@@ -25,7 +25,6 @@ task :store_annotations do
       name = File.basename(canvas, ".*")
       dir = "annotations/" + manifest + "/" + name
       sum_annotations = JSON.parse(File.read(canvas))
-
       FileUtils::mkdir_p dir # make dir for canvas annotations
 
       make_anno_list(dir,name,manifest) # write canvas annotation list to file
@@ -109,60 +108,61 @@ def make_clippings(manifest)
     listpath = canvas['otherContent'][0]['@id'].gsub('{{ site.url }}{{ site.baseurl }}/', '')
     list_json = JSON.parse(File.read('_site/' + listpath).to_s) #TODO remove dependence on generated _site
   
-    resource = list_json['resources'][0]
-    canvasOn = resource['on'][0]['full']
-    next 'WTF canvas ID doesn\'t match' unless canvasID == canvasOn
-    # get clipping metadata: the tags and text that the user entered, and the selected xywh
-    tags = resource['resource'].select { |r| r['@type'] == 'oa:Tag' }
-    texts = resource['resource'].select { |r| r['@type'] == 'dctypes:Text' }
-    xywh = resource['on'][0]['selector']['default']['value'].gsub('xywh=', '')
-  
-    # build label and csv from specified data elements
-    labelElements = []
-    csvElements = {id: resource['@id'], item: manifest, canvas: canvasID}
-  
-    canvasNum = canvasID.gsub(/.+\$([0-9]+)\/canvas.*/, '\1')
-    labelElements << canvasNum
-    csvElements[:canvasNum] = canvasNum
-  
-    tagElements = []
-    tags.each do |tag|
-      labelElements << tag['chars']
-      tagElements << tag['chars']
+    list_json['resources'].each do |resource|
+      canvasOn = resource['on'][0]['full']
+      next 'WTF canvas ID doesn\'t match' unless canvasID == canvasOn
+      # get clipping metadata: the tags and text that the user entered, and the selected xywh
+      tags = resource['resource'].select { |r| r['@type'] == 'oa:Tag' }
+      texts = resource['resource'].select { |r| r['@type'] == 'dctypes:Text' }
+      xywh = resource['on'][0]['selector']['default']['value'].gsub('xywh=', '')
+
+      # build label and csv from specified data elements
+      labelElements = []
+      csvElements = {id: resource['@id'], item: manifest, canvas: canvasID}
+    
+      canvasNum = canvasID.gsub(/.+\$([0-9]+)\/canvas.*/, '\1')
+      labelElements << canvasNum
+      csvElements[:canvasNum] = canvasNum
+    
+      tagElements = []
+      tags.each do |tag|
+        labelElements << tag['chars']
+        tagElements << tag['chars']
+      end
+      csvElements[:tags] = tagElements.join('|')
+    
+      textElements = []
+      texts.each do |text|
+        # strip html markup
+        labelElements << Sanitize.clean(text['chars']).strip
+        textElements << Sanitize.clean(text['chars']).strip
+      end
+      csvElements[:texts] = textElements.join('|')
+    
+      labelElements << xywh
+      csvElements[:xywh] = xywh
+    
+      # label ends up like 1-photo-woman-with-film-camera-1235-134-1126-637
+      label = labelElements.join(' ').slugify
+    
+      imageRoot = canvas['images'][0]['resource']['service']['@id']
+      clippingURL = imageRoot + '/' + xywh + '/full/0/default.jpg'
+      csvElements[:clippingURL] = clippingURL
+    
+      clippingsPath = 'clippings/' + manifest + '/' + canvasNum
+      clippingImage = clippingsPath + '/' + label + '.jpg'
+      csvElements[:clippingImage] = clippingImage
+    
+      FileUtils.mkdir_p clippingsPath
+      # fetch clipping image, if not already fetched
+      if File.exist?(clippingImage)
+        puts "Not fetching #{clippingImage}"
+      else
+        File.write(clippingImage, Net::HTTP.get(URI.parse(clippingURL)))
+        puts "Fetched #{clippingImage} from #{clippingURL}"
+      end
+      clippings << csvElements
     end
-    csvElements[:tags] = tagElements.join('|')
-  
-    textElements = []
-    texts.each do |text|
-      # strip html markup
-      labelElements << Sanitize.clean(text['chars']).strip
-      textElements << Sanitize.clean(text['chars']).strip
-    end
-    csvElements[:texts] = textElements.join('|')
-  
-    labelElements << xywh
-    csvElements[:xywh] = xywh
-  
-    # label ends up like 1-photo-woman-with-film-camera-1235-134-1126-637
-    label = labelElements.join(' ').slugify
-  
-    imageRoot = canvas['images'][0]['resource']['service']['@id']
-    clippingURL = imageRoot + '/' + xywh + '/full/0/default.jpg'
-    csvElements[:clippingURL] = clippingURL
-  
-    clippingsPath = 'clippings/' + manifest + '/' + canvasNum
-    clippingImage = clippingsPath + '/' + label + '.jpg'
-    csvElements[:clippingImage] = clippingImage
-  
-    FileUtils.mkdir_p clippingsPath
-    # fetch clipping image, if not already fetched
-    if File.exist?(clippingImage)
-      puts "Not fetching #{clippingImage}"
-    else
-      File.write(clippingImage, Net::HTTP.get(URI.parse(clippingURL)))
-      puts "Fetched #{clippingImage} from #{clippingURL}"
-    end
-    clippings << csvElements
   end
 
   # output clippings csv file
