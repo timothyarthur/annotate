@@ -14,16 +14,12 @@
      myMiradorInstance = Mirador({
        id: 'viewer',
        data: [{{ data }}],
-       windowObjects: [{
-           loadedManifest: '{{ site.url }}{{ site.baseurl }}/iiif/{{ page.loaded_manifest }}/manifest.json',
-           canvasID: '{{ page.canvas_id }}',
-           bottomPanelVisible: {{ page.bottom_panel | default: 'true' }}
-       }],
        annotationEndpoint: { 'name':'Local Storage', 'module': 'LocalStorageEndpoint' },
        preserveManifestOrder: true,
        annotationLayer: true,
        annotationCreation: true,
-       annotationState: 'annoOnCreateOn'
+       annotationState: 'annoOnCreateOn',
+openManifestsPage: true
      });
    });
 </script>">
