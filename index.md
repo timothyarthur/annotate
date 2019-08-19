@@ -54,6 +54,8 @@ __7.__ Stop the Jekyll serve command. (CTRL-C on Mac)
 
 __8.__ Drag the downloaded JSON files into correct folder within the `annotation` annotation directory of the demo site repository. (Either `bnf640` or `haemisphaerium`. Do not put them into any subfolders.)
 
+__8a.__ Run ```jekyll b``` to populate the ```_site``` directory (which is needed before the next step can run.  
+
 __9.__ Run `$ bundle exec rake`. This will store your annotations in subfolders and create a copy of the IIIF manifest that will reference them.
 
 __10.__ Serve the site again with `$ bundle exec jekyll serve`. Your annotations will be back and permanent!
