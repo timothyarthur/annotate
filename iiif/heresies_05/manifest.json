@@ -3808,7 +3808,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2550
+          "width": 2550,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_05/134/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_05$135/canvas",
@@ -3836,7 +3842,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2550
+          "width": 2550,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_05/135/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_05$136/canvas",
@@ -3864,7 +3876,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2550
+          "width": 2550,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_05/136/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_05$137/canvas",
@@ -3892,7 +3910,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2550
+          "width": 2550,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_05/137/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_05$138/canvas",
