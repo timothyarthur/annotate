@@ -135,7 +135,9 @@ def make_clippings(manifest)
       textElements = []
       texts.each do |text|
         # strip html markup
-        labelElements << Sanitize.clean(text['chars']).strip
+        longfilename = Sanitize.clean(text['chars']).strip
+        filename = longfilename.length > 180 ? longfilename[0..179] : longfilename
+        labelElements << filename
         textElements << Sanitize.clean(text['chars']).strip
       end
       csvElements[:texts] = textElements.join('|')
