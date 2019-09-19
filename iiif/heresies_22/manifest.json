@@ -2800,7 +2800,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2544
+          "width": 2544,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_22/98/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_22$99/canvas",

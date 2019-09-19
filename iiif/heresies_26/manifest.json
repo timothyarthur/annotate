@@ -2996,7 +2996,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2550
+          "width": 2550,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_26/105/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_26$106/canvas",
@@ -3024,7 +3030,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2550
+          "width": 2550,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_26/106/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_26$107/canvas",
@@ -3052,7 +3064,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2550
+          "width": 2550,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_26/107/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_26$108/canvas",
@@ -3080,7 +3098,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2550
+          "width": 2550,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_26/108/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_26$109/canvas",
@@ -3108,7 +3132,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2550
+          "width": 2550,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_26/109/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_26$110/canvas",

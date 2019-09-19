@@ -2688,7 +2688,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2544
+          "width": 2544,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_11/94/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_11$95/canvas",
@@ -2716,7 +2722,13 @@ layout: null
             }
           ],
           "label": "",
-          "width": 2544
+          "width": 2544,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_11/95/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_11$96/canvas",
