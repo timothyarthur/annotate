@@ -1,5 +1,5 @@
 ---
 layout: null
-canvas: '124'
+canvas: 'heresies_02/124'
 ---
 {% assign anno_name = page.canvas | append: "-resources" %}{% assign annotations = site.pages | where: "label", anno_name | first %}{"@context": "http://iiif.io/api/presentation/2/context.json","@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_02/124/list.json","@type": "sc:AnnotationList","resources": {{ annotations.content }} }
