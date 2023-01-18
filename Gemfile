@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
-<<<<<<< HEAD
-gem 'jekyll'
-=======
+
 
 gem 'jekyll'
->>>>>>> upstream/mirador-3
+
 gem 'jekyll-swiss'
 gem 'rake'
 gem 'html-proofer'
