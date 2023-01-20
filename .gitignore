@@ -3,7 +3,4 @@ _site
 .sass-cache/
 .jekyll-cache
 .jekyll-metadata
-<<<<<<< HEAD
-=======
-.jekyll-metadata
->>>>>>> upstream/mirador-3
+vendor/
