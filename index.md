@@ -85,4 +85,4 @@ __23.__ To confirm your work is there and saved, in the command line, open the a
 
 __24.__ Return to your Browser and refresh the page. (or if you have closed the page, go to “localhost:4000/annotate/”). 
 
-__25.__ Select the issue you’ve completed, then select the page of advertisements. Click on the speech bubbles to see your content and confirm your annotations exist.
+__25.__ Select the issue you’ve completed, then select the page of advertisements. Click on the speech bubbles to see your content and confirm your annotations exist. (Note: If the annotations do not appear, try repeating from step 19.)
