@@ -1,0 +1,129 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads/manifest.json",
+  "@type": "sc:Manifest",
+  "attribution": "The Internet Archive",
+  "description": "Ad-containing pages from Sinister Wisdom 8",
+  "label": "Sinister Wisdom 8 Ads",
+  "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Sinister Wisdom 8 Ads"
+    },
+    {
+      "label": "subject",
+      "value": "Sinister Wisdom. feminism. feminist magazines. feminist periodicals"
+    },
+    {
+      "label": "date",
+      "value": "1979"
+    }
+  ],
+  "related": "http://archive.org/details/sinister-wisdom-8-ads",
+  "seeAlso": "http://archive.org/metadata/sinister-wisdom-8-ads",
+  "sequences": [
+    {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads/canvas/default",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$0/canvas",
+          "@type": "sc:Canvas",
+          "description": "",
+          "height": 2588,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$0/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$0/annotation",
+              "resource": {
+                "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$0/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2588,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$0",
+                  "profile": "https://iiif.io/api/image/2/profiles/level2.json"
+                },
+                "width": 1649
+              }
+            }
+          ],
+          "label": "p. ",
+          "width": 1649
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$1/canvas",
+          "@type": "sc:Canvas",
+          "description": "",
+          "height": 2588,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$1/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$1/annotation",
+              "resource": {
+                "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$1/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2588,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$1",
+                  "profile": "https://iiif.io/api/image/2/profiles/level2.json"
+                },
+                "width": 1649
+              }
+            }
+          ],
+          "label": "p. ",
+          "width": 1649
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$2/canvas",
+          "@type": "sc:Canvas",
+          "description": "",
+          "height": 2587,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$2/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$2/annotation",
+              "resource": {
+                "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2587,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-8-ads$2",
+                  "profile": "https://iiif.io/api/image/2/profiles/level2.json"
+                },
+                "width": 1649
+              }
+            }
+          ],
+          "label": "p. ",
+          "width": 1649
+        }
+      ],
+      "label": "default"
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://ia804707.us.archive.org/BookReader/BookReaderPreview.php?id=sinister-wisdom-8-ads&subPrefix=Sinister%20Wisdom%208%20Ads&itemPath=/21/items/sinister-wisdom-8-ads&server=ia804707.us.archive.org&page=preview&"
+  },
+  "viewingHint": "paged"
+}
