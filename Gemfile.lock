@@ -22,8 +22,10 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
+    google-protobuf (3.21.12-x64-mingw-ucrt)
     google-protobuf (3.21.12-x86_64-darwin)
     hashery (2.1.2)
     html-proofer (5.0.4)
@@ -69,6 +71,8 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
+    nokogiri (1.14.0-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.14.0-x86_64-darwin)
       racc (~> 1.4)
     pathutil (0.16.2)
@@ -93,6 +97,8 @@ GEM
     sanitize (6.0.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
+    sass-embedded (1.57.1-x64-mingw-ucrt)
+      google-protobuf (~> 3.21)
     sass-embedded (1.57.1-x86_64-darwin)
       google-protobuf (~> 3.21)
     slugify (1.0.7)
@@ -108,7 +114,9 @@ GEM
     zeitwerk (2.6.6)
 
 PLATFORMS
+  x64-mingw-ucrt
   x86_64-darwin-18
+  x86_64-darwin-20
   x86_64-darwin-22
 
 DEPENDENCIES
