@@ -1,6 +1,9 @@
+---
+layout: null
+---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://iiif.archivelab.org/iiif/sinister-wisdom-11-ads/manifest.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/iiif/sinister-wisdom-11-ads/manifest.json",
   "@type": "sc:Manifest",
   "attribution": "The Internet Archive",
   "description": "Ad-containing pages from Sinister Wisdom 11",
@@ -146,7 +149,13 @@
             }
           ],
           "label": "p. ",
-          "width": 1683
+          "width": 1683,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/sinister_wisdom_11/3/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -176,7 +185,13 @@
             }
           ],
           "label": "p. ",
-          "width": 1654
+          "width": 1654,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/sinister_wisdom_11/4/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         }
       ],
       "label": "default"
