@@ -135,8 +135,8 @@ def make_clippings(manifest)
       textElements = []
       texts.each do |text|
         # strip html markup
-        longfilename = Sanitize.clean(text['chars']).strip
-        filename = longfilename.length > 180 ? longfilename[0..179] : longfilename
+        longfilename = Sanitize.clean(text['chars']).strip 
+        filename = longfilename.length > 100 ? longfilename[0..99] : longfilename # Edited to shorten further for working in deep paths
         labelElements << filename
         textElements << Sanitize.clean(text['chars']).strip
       end
