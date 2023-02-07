@@ -83,9 +83,9 @@ Add one or more annotations to one or more pages. Then click the 'view cached an
 
 21. Next, return to the command window to stop the Jekyll serve command by typing: “CTRL-C”.
 
-22. In the command line, store your annotations in subfolders and create a copy of the IIIF manifest by typing: `bundle exec jekyll build --incremental`.
+22. In the command line, store your annotations in subfolders and create a copy of the IIIF manifest by typing: `bundle exec jekyll build --incremental`. 
 
-23. Once this command has run, then type: `bundle exec rake`. 
+23. Once this command has run, then type: `bundle exec rake`. **(If you receive an error message beginning with `rake aborted!`, repeat steps 22 and 23)**
 
 24. Your annotations and subfolders should now be created and saved.
 
@@ -93,4 +93,4 @@ Add one or more annotations to one or more pages. Then click the 'view cached an
 
 26. Return to your Browser and refresh the page. (or if you have closed the page, go to `localhost:4000/annotate/`). 
 
-27. Select the issue you’ve completed, then select the page of advertisements. Click on the speech bubbles to see your content and confirm your annotations exist. **(Note: If the annotations do not appear, try repeating step 17, then 22-27.)**
+27. Select the issue you’ve completed, then select the page of advertisements. Click on the speech bubbles to see your content and confirm your annotations exist. **(Note: If the annotations do not appear, try repeating steps 15-19, then 22-27.)**
