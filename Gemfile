@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 
-gem 'jekyll-swiss'
+gem 'jekyll-swiss-sass-fix', :git => 'https://github.com/timothyarthur/swiss_sass_fix.git'
 gem 'rake'
 gem 'html-proofer'
 gem 'slugify'

@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/timothyarthur/swiss_sass_fix.git
+  revision: fe7b6573a518792fe3e23ff2511eabb566c23d09
+  specs:
+    jekyll-swiss-sass-fix (1.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -59,7 +65,6 @@ GEM
       webrick (~> 1.7)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
-    jekyll-swiss (1.0.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -71,9 +76,9 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    nokogiri (1.14.0-x64-mingw-ucrt)
+    nokogiri (1.14.1-x64-mingw-ucrt)
       racc (~> 1.4)
-    nokogiri (1.14.0-x86_64-darwin)
+    nokogiri (1.14.1-x86_64-darwin)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -94,12 +99,12 @@ GEM
     rouge (4.0.1)
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
-    sanitize (6.0.0)
+    sanitize (6.0.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    sass-embedded (1.57.1-x64-mingw-ucrt)
+    sass-embedded (1.58.0-x64-mingw-ucrt)
       google-protobuf (~> 3.21)
-    sass-embedded (1.57.1-x86_64-darwin)
+    sass-embedded (1.58.0-x86_64-darwin)
       google-protobuf (~> 3.21)
     slugify (1.0.7)
     terminal-table (3.0.2)
@@ -109,9 +114,9 @@ GEM
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
     unicode-display_width (2.4.2)
-    webrick (1.7.0)
+    webrick (1.8.1)
     yell (2.2.2)
-    zeitwerk (2.6.6)
+    zeitwerk (2.6.7)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -123,7 +128,7 @@ DEPENDENCIES
   byebug
   html-proofer
   jekyll
-  jekyll-swiss
+  jekyll-swiss-sass-fix!
   kramdown-parser-gfm (~> 1.1)
   rake
   sanitize

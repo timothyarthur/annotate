@@ -7,7 +7,7 @@ github_username: mnyrop
 social_username: mariinyrop
 
 permalink: pretty
-theme: jekyll-swiss
+theme: jekyll-swiss-sass-fix
 exclude: [Rakefile, Gemfile*, vendor, README.md, LICENSE]
 
 collections:
