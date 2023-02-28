@@ -31,6 +31,4 @@ The rake task ```store_annotations``` has more functions:
   - these functions are idempotent: clipping images will only be fetched if they are not already present
     (otherwise it will output "No fetching [image]"),
     and the clippings.csv will always be regenerated from all the annotations, regardless of whether they are old or new.
-  - note that the rake task needs to look at the annotations as rendered in the site, so you must run ```jekyll build```
-    before running the rake task. Otherwise you will see errors like ```error: pathspec 'annotations/heresies_01' did not match any file(s) known to git.```
-    If this happens, just run ```jekyll build``` and then run the rake task again. (This requirement will be removed in a future release.)
+ 
