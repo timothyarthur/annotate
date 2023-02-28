@@ -95,20 +95,20 @@ def update_manifest_copy(manifest)
 end
 
 def make_clippings(manifest)
-  
+
   manifest_json = JSON.parse(File.read("iiif/" + manifest + "/manifest.json").gsub(/\A---(.|\n)*?---/, "").to_s)
 
   canvasesWithAnnos = manifest_json['sequences'][0]['canvases']
     .select { |canvas| canvas['otherContent'] }
     .select { |canvas| canvas['otherContent'][0]['@type'] == 'sc:AnnotationList' }
-  
+
   clippings = []
-  
+
   canvasesWithAnnos.each do |canvas|
     canvasID = canvas['@id']
     listpath = canvas['otherContent'][0]['@id'].gsub('{{ site.url }}{{ site.baseurl }}/', '')
-    list_json = JSON.parse(File.read('_site/' + listpath).to_s) #TODO remove dependence on generated _site
-  
+    list_json = JSON.parse(File.read(listpath).to_s) #TODO remove dependence on generated _site
+
     list_json['resources'].each do |resource|
       canvasOn = resource['on'][0]['full']
       next 'WTF canvas ID doesn\'t match' unless canvasID == canvasOn
@@ -120,42 +120,42 @@ def make_clippings(manifest)
       # build label and csv from specified data elements
       labelElements = []
       csvElements = {id: resource['@id'], item: manifest, canvas: canvasID}
-    
+
       canvasNum = canvasID.gsub(/.+\$([0-9]+)\/canvas.*/, '\1')
       labelElements << canvasNum
       csvElements[:canvasNum] = canvasNum
-    
+
       tagElements = []
       tags.each do |tag|
         labelElements << tag['chars']
         tagElements << tag['chars']
       end
       csvElements[:tags] = tagElements.join('|')
-    
+
       textElements = []
       texts.each do |text|
         # strip html markup
-        longfilename = Sanitize.clean(text['chars']).strip 
+        longfilename = Sanitize.clean(text['chars']).strip
         filename = longfilename.length > 100 ? longfilename[0..99] : longfilename # Edited to shorten further for working in deep paths
         labelElements << filename
         textElements << Sanitize.clean(text['chars']).strip
       end
       csvElements[:texts] = textElements.join('|')
-    
+
       labelElements << xywh
       csvElements[:xywh] = xywh
-    
+
       # label ends up like 1-photo-woman-with-film-camera-1235-134-1126-637
       label = labelElements.join(' ').slugify
-    
+
       imageRoot = canvas['images'][0]['resource']['service']['@id']
       clippingURL = imageRoot + '/' + xywh + '/full/0/default.jpg'
       csvElements[:clippingURL] = clippingURL
-    
+
       clippingsPath = 'clippings/' + manifest + '/' + canvasNum
       clippingImage = clippingsPath + '/' + label + '.jpg'
       csvElements[:clippingImage] = clippingImage
-    
+
       FileUtils.mkdir_p clippingsPath
       # fetch clipping image, if not already fetched
       if File.exist?(clippingImage)
