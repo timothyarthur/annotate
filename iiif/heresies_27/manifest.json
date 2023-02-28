@@ -1,6 +1,9 @@
+---
+layout: null
+---
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://iiif.archivelab.org/iiif/heresies_27/manifest.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/iiif/heresies_27/manifest.json",
   "@type": "sc:Manifest",
   "attribution": "The Internet Archive",
   "label": "Heresies Magazine Issue #27: LATINA - A Journal of Ideas (Volume 7, Number 3)",
@@ -3357,7 +3360,13 @@
             }
           ],
           "label": "",
-          "width": 2550
+          "width": 2550,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_27/118/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@id": "https://iiif.archivelab.org/iiif/heresies_27$119/canvas",
@@ -3413,7 +3422,13 @@
             }
           ],
           "label": "",
-          "width": 2550
+          "width": 2550,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/heresies_27/120/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         }
       ],
       "label": "default"
