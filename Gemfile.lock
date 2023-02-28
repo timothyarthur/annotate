@@ -130,7 +130,6 @@ DEPENDENCIES
   jekyll
   jekyll-swiss-sass-fix!
   kramdown-parser-gfm (~> 1.1)
-  liquid (~> 4.0)
   rake
   sanitize
   slugify
