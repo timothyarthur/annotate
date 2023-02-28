@@ -1,11 +1,14 @@
 require 'fileutils'
 require 'json'
+require 'yaml'
 require 'csv'
 require 'slugify'
 require 'sanitize'
 require 'net/http'
 
 require 'byebug'
+
+require 'liquid'
 
 task :default => [:store_annotations]
 
@@ -96,8 +99,11 @@ end
 
 def make_clippings(manifest)
 
-  manifest_json = JSON.parse(File.read("iiif/" + manifest + "/manifest.json").gsub(/\A---(.|\n)*?---/, "").to_s)
+  # read manifest file and remove header to parse as JSON
+  manifest_file = File.read("iiif/" + manifest + "/manifest.json").to_s.gsub(/\A---(.|\n)*?---/, "")
+  manifest_json = JSON.parse(manifest_file)
 
+  # select canvases with annotations from manifest
   canvasesWithAnnos = manifest_json['sequences'][0]['canvases']
     .select { |canvas| canvas['otherContent'] }
     .select { |canvas| canvas['otherContent'][0]['@type'] == 'sc:AnnotationList' }
@@ -107,7 +113,21 @@ def make_clippings(manifest)
   canvasesWithAnnos.each do |canvas|
     canvasID = canvas['@id']
     listpath = canvas['otherContent'][0]['@id'].gsub('{{ site.url }}{{ site.baseurl }}/', '')
-    list_json = JSON.parse(File.read(listpath).to_s) #TODO remove dependence on generated _site
+
+    # read list file and remove YAML header
+    list_file = File.read(listpath).to_s
+
+    File.open("list1.json", 'w') { |f| f.write(list_file.to_json) }
+    # process liquid tags in list file
+    list_file = Liquid::Template.parse(list_file).render
+
+
+    # parse list file as JSON
+    list_json = JSON.parse(list_file.to_json)
+
+    # save list_json to file for debugging
+    File.open("list2json", 'w') { |f| f.write(list_json.to_json) }
+
 
     list_json['resources'].each do |resource|
       canvasOn = resource['on'][0]['full']
