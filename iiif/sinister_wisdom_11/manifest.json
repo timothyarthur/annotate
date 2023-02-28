@@ -59,7 +59,13 @@ layout: null
             }
           ],
           "label": "p. ",
-          "width": 1683
+          "width": 1683,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/sinister_wisdom_11/0/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -89,7 +95,13 @@ layout: null
             }
           ],
           "label": "p. ",
-          "width": 1683
+          "width": 1683,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/sinister_wisdom_11/1/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -119,7 +131,13 @@ layout: null
             }
           ],
           "label": "p. ",
-          "width": 1654
+          "width": 1654,
+          "otherContent": [
+            {
+              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/sinister_wisdom_11/2/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
         },
         {
           "@context": "http://iiif.io/api/presentation/2/context.json",

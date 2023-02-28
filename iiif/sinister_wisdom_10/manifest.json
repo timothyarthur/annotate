@@ -167,13 +167,7 @@ layout: null
             }
           ],
           "label": "p. ",
-          "width": 1649,
-          "otherContent": [
-            {
-              "@id": "{{ site.url }}{{ site.baseurl }}/annotations/sinister_wisdom_10/3/list.json",
-              "@type": "sc:AnnotationList"
-            }
-          ]
+          "width": 1649
         },
         {
           "@context": "http://iiif.io/api/presentation/2/context.json",
