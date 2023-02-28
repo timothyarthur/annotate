@@ -120,15 +120,8 @@ def make_clippings(manifest, site)
     puts listpath
     list_file = File.read('_site/'+listpath).to_s
 
-    #File.open("list1.json", 'w') { |f| f.write(list_file.to_json) }
-    # process liquid tags in list file
-    # list_file = Liquid::Template.parse(list_file).render('site' => site, 'page' => page)
-
     # parse list file as JSON
     list_json = JSON.parse(list_file)
-
-    # save list_json to file for debugging
-    # File.open("list2json", 'w') { |f| f.write(list_json.to_json) }
 
     list_json['resources'].each do |resource|
       canvasOn = resource['on'][0]['full']
