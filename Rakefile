@@ -8,7 +8,7 @@ require 'net/http'
 
 require 'byebug'
 
-require 'liquid'
+require 'jekyll'
 
 task :default => [:store_annotations]
 
@@ -41,9 +41,14 @@ task :store_annotations do
       puts "Updating #{manifest}"
       update_manifest_copy(manifest)
     end
+  end
+  # build jekyll site to get annotations for clippings
+  site = Jekyll::Site.new(Jekyll.configuration({
+    "source" => ".",
+    "destination" => "_site"})).process
 
-    make_clippings(manifest)
-
+  manifests.each do | manifest |
+    make_clippings(manifest, site)
   end
 end
 
@@ -97,10 +102,9 @@ def update_manifest_copy(manifest)
   File.open("iiif/" + manifest + "/manifest.json", 'w+') { |f| f.write("---\nlayout: null\n---\n"+JSON.pretty_generate(manifest_json)) }
 end
 
-def make_clippings(manifest)
+def make_clippings(manifest, site)
 
-  # read manifest file and remove header to parse as JSON
-  manifest_file = File.read("iiif/" + manifest + "/manifest.json").to_s.gsub(/\A---(.|\n)*?---/, "")
+  manifest_file = File.read("iiif/" + manifest + "/manifest.json").gsub(/\A---(.|\n)*?---/, "").to_s
   manifest_json = JSON.parse(manifest_file)
 
   # select canvases with annotations from manifest
@@ -113,21 +117,18 @@ def make_clippings(manifest)
   canvasesWithAnnos.each do |canvas|
     canvasID = canvas['@id']
     listpath = canvas['otherContent'][0]['@id'].gsub('{{ site.url }}{{ site.baseurl }}/', '')
+    puts listpath
+    list_file = File.read('_site/'+listpath).to_s
 
-    # read list file and remove YAML header
-    list_file = File.read(listpath).to_s
-
-    File.open("list1.json", 'w') { |f| f.write(list_file.to_json) }
+    #File.open("list1.json", 'w') { |f| f.write(list_file.to_json) }
     # process liquid tags in list file
-    list_file = Liquid::Template.parse(list_file).render
-
+    # list_file = Liquid::Template.parse(list_file).render('site' => site, 'page' => page)
 
     # parse list file as JSON
-    list_json = JSON.parse(list_file.to_json)
+    list_json = JSON.parse(list_file)
 
     # save list_json to file for debugging
-    File.open("list2json", 'w') { |f| f.write(list_json.to_json) }
-
+    # File.open("list2json", 'w') { |f| f.write(list_json.to_json) }
 
     list_json['resources'].each do |resource|
       canvasOn = resource['on'][0]['full']
