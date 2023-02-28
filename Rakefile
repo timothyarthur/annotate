@@ -104,7 +104,7 @@ end
 
 def make_clippings(manifest, site)
 
-  manifest_file = File.read("iiif/" + manifest + "/manifest.json").gsub(/\A---(.|\n)*?---/, "").to_s
+  manifest_file = File.read("_site/iiif/" + manifest + "/manifest.json")
   manifest_json = JSON.parse(manifest_file)
 
   # select canvases with annotations from manifest
@@ -116,11 +116,9 @@ def make_clippings(manifest, site)
 
   canvasesWithAnnos.each do |canvas|
     canvasID = canvas['@id']
-    listpath = canvas['otherContent'][0]['@id'].gsub('{{ site.url }}{{ site.baseurl }}/', '')
+    listpath = canvas['otherContent'][0]['@id']
     puts listpath
-    list_file = File.read('_site/'+listpath).to_s
-
-    # parse list file as JSON
+    list_file = File.read(listpath.gsub('/annotate', '_site' )).to_s
     list_json = JSON.parse(list_file)
 
     list_json['resources'].each do |resource|
