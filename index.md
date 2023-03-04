@@ -117,5 +117,3 @@ Add one or more annotations to one or more pages. Then click the 'view cached an
 10. You may wish to run Jekyll locally to ensure that the new issue was added successfully. Do so with `bundle exec jekyll serve` and navigate to `http://localhost:4000/annotate/`. The new issue should appear in the gallery.
 11. To commit your changes, type: `git add --all` and then `git commit -m "added manifest for [name of issue]"`
 12. Merge your changes to the appropriate branch, and push them.
-layout: home
----
