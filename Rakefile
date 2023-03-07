@@ -1,6 +1,5 @@
 require 'fileutils'
 require 'json'
-require 'yaml'
 require 'csv'
 require 'slugify'
 require 'sanitize'
@@ -9,6 +8,9 @@ require 'net/http'
 require 'byebug'
 
 require 'jekyll'
+
+require 'yaml'
+
 
 task :default => [:store_annotations]
 
@@ -19,6 +21,10 @@ task :store_annotations do
   Dir['iiif/*/'].each { | m |
     mkdir_p "annotations/#{File.basename(m, ".*")}"
     manifests << File.basename(m, ".*")
+    manifest = File.basename(m, ".*")
+    if !File.exist?("iiif/" + manifest + "/clean-manifest.json") && File.exist?("iiif/" + manifest + "/manifest.json")
+      add_new_manifest(manifest)
+    end
   }
 
   manifests.each do | manifest |
@@ -50,6 +56,10 @@ task :store_annotations do
   manifests.each do | manifest |
     make_clippings(manifest, site)
   end
+end
+
+task :test do
+  puts "test"
 end
 
 
@@ -116,9 +126,9 @@ def make_clippings(manifest, site)
 
   canvasesWithAnnos.each do |canvas|
     canvasID = canvas['@id']
-    listpath = canvas['otherContent'][0]['@id']
+    listpath = canvas['otherContent'][0]['@id'].gsub('https://timothyarthur.github.io/', '_site')
     puts listpath
-    list_file = File.read(listpath.gsub('/annotate', '_site' )).to_s
+    list_file = File.read(listpath).to_s
     list_json = JSON.parse(list_file)
 
     list_json['resources'].each do |resource|
@@ -192,3 +202,36 @@ def make_clippings(manifest, site)
     File.write('clippings/' + manifest + '/clippings.csv', s)
   end
 end
+
+def add_new_manifest(manifest)
+  manifest = File.basename(manifest)
+  puts "adding new manifest " + manifest
+  # create a copy of the new manifest called 'clean-manifest.json'
+  source_file = File.expand_path("iiif/" + manifest + "/manifest.json")
+  destination_file = File.expand_path("iiif/" + manifest + "/clean-manifest.json")
+  FileUtils.cp(source_file, destination_file)
+  # parse index.md yaml front matter
+  index_file = File.expand_path("index.md")
+  begin
+    file_contents = File.read(index_file)
+  rescue StandardError => e
+    puts "Error reading file: #{e.message}"
+    return
+  end
+  front_matter_regex = /^---\s*\n(.*?\n?)^---\s*$\n?/m
+  front_matter_match = front_matter_regex.match(file_contents)
+  if front_matter_match
+    front_matter = YAML.safe_load(front_matter_match[1])
+    # add new manifest to list
+    front_matter["manifests"] ||= []
+    front_matter["manifests"] << manifest
+    # replace index.md yaml front matter with new list
+    new_front_matter = YAML.dump(front_matter)
+    file_contents = file_contents.sub(front_matter_regex, new_front_matter + "---\n")
+    # write index.md
+    File.open(index_file, 'w+') { |f| f.write(file_contents) }
+  else
+    puts "Error parsing front matter"
+  end
+end
+
