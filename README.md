@@ -1,13 +1,13 @@
-# IIIF-Annotate [![Build Status](https://travis-ci.org/mnyrop/annotate.svg?branch=master)](https://travis-ci.org/mnyrop/annotate)   ![Libraries.io for GitHub](https://img.shields.io/librariesio/github/mnyrop/annotate.svg)
+# IIIF-Annotate for AdArchive
 
 Create/store/load static annotations on IIIF manifests via Jekyll
 
 ## Getting started
 
 ### Requirements
-- Ruby >=2.2
-- Jekyll >=3.5
-- Bundler >=1.12
+- Ruby >=2.2<=3.1
+- Jekyll >=3.5<=3.9
+- Bundler >=1.12<=2.4
 
 ### Installing
 - Clone this repository and navigate into it:<br>
@@ -31,3 +31,8 @@ The rake task ```store_annotations``` has more functions:
   - these functions are idempotent: clipping images will only be fetched if they are not already present
     (otherwise it will output "No fetching [image]"),
     and the clippings.csv will always be regenerated from all the annotations, regardless of whether they are old or new.
+
+### Further enhancements (timothyarthur)
+- Updated with rake function for adding new manifests from files named `/iiif/[manifest]/[manifest].json'
+- Debugged Rakefile
+- This branch made compatible with GitHub pages
