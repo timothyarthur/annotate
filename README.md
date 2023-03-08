@@ -5,9 +5,9 @@ Create/store/load static annotations on IIIF manifests via Jekyll
 ## Getting started
 
 ### Requirements
-- Ruby <=3.1
-- Jekyll >=4.2
-- Bundler >=2.4
+- Ruby >=2.2<=3.1
+- Jekyll >=3.5<=3.9
+- Bundler >=1.12<=2.4
 
 ### Installing
 - Clone this repository and navigate into it:<br>
@@ -35,5 +35,4 @@ The rake task ```store_annotations``` has more functions:
 ### Further enhancements (timothyarthur)
 - Updated with rake function for adding new manifests from files named `/iiif/[manifest]/manifest.json`
 - Debugged Rakefile
-- Updated to Jekyll 4
-- Uses patched jekyll-swiss theme
+- This branch made compatible with GitHub pages
