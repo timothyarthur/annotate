@@ -33,7 +33,7 @@ The rake task ```store_annotations``` has more functions:
     and the clippings.csv will always be regenerated from all the annotations, regardless of whether they are old or new.
 
 ### Further enhancements (timothyarthur)
-- Updated with rake function for adding new manifests from files named `/iiif/[manifest]/[manifest].json`
+- Updated with rake function for adding new manifests from files named `/iiif/[manifest]/manifest.json`
 - Debugged Rakefile
 - Updated to Jekyll 4
 - Uses patched jekyll-swiss theme
