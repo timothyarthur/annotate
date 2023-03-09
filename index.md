@@ -42,7 +42,8 @@ Add one or more annotations to one or more pages. Then click the 'view cached an
 
 <iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/nHbsm8T1BnI?rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br><br>
 
-<h1 class="h0">4. Annotation Instructions</h1>
+<div id="4"/>
+<h1 class="h0">4. Full Annotation Instructions</h1>
 
 1. Navigate in your terminal to the folder where you have saved the `annotate` folder within the `AdArchive` repository. For example, if you have saved the repository on your desktop, you would type: `cd Desktop/AdArchive/annotate`. (The annotate folder is its own repository within the AdArchive repository, so changes are treated separately).
 
@@ -102,7 +103,8 @@ Add one or more annotations to one or more pages. Then click the 'view cached an
 
 29. If the merge is successful, push your changes to the `master` branch by typing: `git push origin master`.
 
-<h1 class="h0">5. Adding manifests to annotate new issues</h1>
+<div id="5"/>
+<h1 class="h0">5. How to Add New Manifests (To Annotate New Issues)</h1>
 
 1. Upload the issue to Internet Archive
 2. Navigate to the `annotate` repository in your terminal
