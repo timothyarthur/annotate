@@ -3,8 +3,7 @@ description: ''
 baseurl: '/annotate'
 url: ''
 
-github_username: mnyrop
-social_username: mariinyrop
+github_username: timothyarthur
 
 permalink: pretty
 theme: jekyll-swiss-sass-fix
